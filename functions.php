@@ -5,4 +5,6 @@ function clean_tags_from_unnecessary_attributes($string){
     $replacement = '';
     return preg_replace($pattern, $replacement, $string);
 }
+
+
 ?>
