@@ -24,3 +24,10 @@ function generate_random_lorem_ipsum() {
     // return the generated text with the selected word count
     return implode(' ', array_slice($words, 0, $word_count));
 }
+
+//generate random image
+function getRandomImageUrl($width, $height) {
+    $seed = uniqid();
+    $url = "https://picsum.photos/seed/{$seed}/{$width}/{$height}";
+    return $url;
+}
