@@ -6,7 +6,6 @@ function clean_tags_from_unnecessary_attributes($string){
     return preg_replace($pattern, $replacement, $string);
 }
 
-
 function generate_random_lorem_ipsum() {
     // predefined word lengths to choose from
     $word_lengths = [5, 10, 15, 20, 30, 40]; // list of possible text lengths
